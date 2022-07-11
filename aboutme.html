@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About Me</title>
+  <link rel="icon" href="Mohamad.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+ <header>
+    <div class="tabbar">
+     <a href="./home.html">Home</a>
+  <a href="./aboutme.html" class="active">About Me</a>
+    <a href="./search.html" id="search-button" class="fa fa-search"></a>
+</div>
+</header>
+    
+<style>
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+  .tabbar{
+  overflow: hidden;
+  background-color: #000000;
+  opacity: 0.9;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;  
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0,   0.60);
+  transition: 0.3s;
+    }
+    
+    .tabbar a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+    }
+    
+    .tabbar a:hover {
+  background-color: #0036FF;
+  color: white;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+    
+    .tabbar a.active {
+  background-color: #0036FF;
+  color: white;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+    @media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+        
+* {
+  box-sizing: border-box;
+    
+    }
+
+    </style>
+    
+<style> 
+    #search-button{
+    float: right
+    }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<h1>About Me</h1>
+<h3>Mohamad Amin Ghanoum</h3>
+<img src="https://content.codecademy.com/courses/web-101/htmlcss1-img_brown-bear-2.jpeg">
+
+  <!-- A section that describes the brown bear -->
+  <p>Hey, my name is Mohamad, and there's little I find more exciting than bears! I've spent most of my young life traveling to the edges of Earth to take videos of these wonderful creatures.   <br /> <br />
+
+  	Family, Country, Bears, <br /> <br />
+    Mohamad
+
+  </p>
+</body>
+</html>
